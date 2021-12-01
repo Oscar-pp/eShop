@@ -5,7 +5,7 @@ Proyecto final curso Backend
 Ecommerce
 
 # TEMATICA
-Aplicación para gestionar el funcionamiento de un supermercado. Grupo solidario nos ha solicitado la creación de una tienda online para la gestión y venta de sus productos. 
+Aplicación para gestionar el funcionamiento de un supermercado. Grupo solidario ha solicitado la creación de una tienda online para la gestión y venta de sus productos. 
 
 # OBJETIVO DE LA APLICACIÓN
 La aplicacion gestionará la relación con los proveedores, clientes y la gestion de stock de la tienda
