@@ -5,9 +5,7 @@ Proyecto final curso Backend
 Ecommerce Comercio Justo
 
 # TEMATICA
-Aplicación para gestionar el funcionamiento de un supermercado de comercio
-justo online . Grupo solidario de comercio justo nos han solicitado la creación
-de una tienda online para la gestión y venta de sus productos. 
+Aplicación para gestionar el funcionamiento de un supermercado. Grupo solidario de comercio justo nos han solicitado la creación de una tienda online para la gestión y venta de sus productos. 
 
 # OBJETIVO DE LA APLICACIÓN
 La aplicacion gestionará la relación con los proveedores, clientes y la gestion de stock de la tienda
