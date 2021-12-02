@@ -7,7 +7,10 @@ import { UserModule } from './user/user.module';
 import { CartModule } from './cart/cart.module';
 
 @Module({
-  imports: [ProductModule, SupplierModule, UserModule, CartModule],
+  imports: [ProductModule, 
+            SupplierModule, 
+            UserModule, 
+            CartModule],
   controllers: [AppController],
   providers: [AppService],
 })
