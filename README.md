@@ -16,6 +16,11 @@ Posteriormente se integraría el modulo de facturacion y venta en tienda física
 Como opción se valoraría integrar el reparto a domicilio.
 
 # ALCANCE
+
+Registro de Usuarios (cliente, admin)
+
+Login de usuarios (cliente, admin)
+
 Gestionar el acceso de usuarios autenticados y autorizados a los distintos endpoints de la aplicación.
 
 Gestionar el alta, baja, consulta y modificación de usuarios.
