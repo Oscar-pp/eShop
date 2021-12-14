@@ -56,14 +56,7 @@ export class UserService {
             return result
         }
 
-        // if ((limit <= 0)) {
-        //     throw new NotFoundException({ statusCode: 404, message: `Parameters no corrects` })
-
-        // } else {
-            
-        //     const result = (await this.userRepository.find()).slice(0,limit)
-        //     return result
-        // }
+        
     }
 
     async deleteById(id: string): Promise<any> {

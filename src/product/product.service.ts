@@ -71,12 +71,12 @@ export class ProductService {
         return product
     }
 
-    async updateByIdProduct(id: string, createProductDto: CreateProductDto): Promise<Product> {
+    async updateByIdProduct(id: string, createProductDto: Partial<CreateProductDto>): Promise<Product> {
         const product = await this.productRepository.findOne({ productId: id })
         if ((!product) || (!product.productId)) {
             throw new NotFoundException({ statusCode: 400, message: `Product update ${id} not exist in database` })
         } else {
-
+           
             Object.assign(product, createProductDto)
             await this.productRepository.save(product)
             return product

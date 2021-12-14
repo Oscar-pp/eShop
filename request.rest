@@ -19,8 +19,8 @@ POST http://localhost:3000/api/eshop/auth/login/
 Content-Type: application/json
 
 {
-    "name":"oscar",
-    "password":"0000"
+    "name":"1111",
+    "password":"1111"
     
 }
 
@@ -70,5 +70,9 @@ Content-Type: application/json
 
 
 ######
+
+GET http://localhost:3000/api/eshop/product/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMTExMSIsImlhdCI6MTYzOTQ3NDg1MSwiZXhwIjoxNjM5NTYxMjUxfQ.EiXvH3wpFtShbu0iq9wlM9nwONhZd6wiHHg58gFsJVQ
+
 
 
