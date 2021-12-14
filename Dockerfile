@@ -6,10 +6,10 @@ WORKDIR /home/node/app
 
 COPY package*.json ./
 
-USER node
-
 RUN npm ci --only=production
 COPY --chown=node:node ./dist ./dist
+
+USER node
 
 # COPY --chown=node:node . .
 
