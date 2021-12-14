@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ProductService } from './product.service';
-
+jest.mock('./product.service')
 describe('ProductService', () => {
   let service: ProductService;
 
