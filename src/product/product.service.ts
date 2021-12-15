@@ -36,7 +36,7 @@ export class ProductService {
     async findProduct(nameDto: string): Promise<Product[]> {
         const product = await this.productRepository.findOne({ name: nameDto })
         if (!product) {
-            throw new NotFoundException({ statusCode: 400, message: `Product ${nameDto} not exist in database` })
+            throw new NotFoundException({ statusCode: 400, message: `PRODUCT ${nameDto} NOT EXIST IN DATABASE` })
         } else {
 
             const result = (await this.productRepository.find({ name:nameDto })).slice(0)
