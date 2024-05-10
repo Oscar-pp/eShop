@@ -1,5 +1,5 @@
 # eShop
-Proyecto final curso Backend 
+Proyecto final curso Backend --
 
 # TITULO
 Ecommerce Comercio Justo
